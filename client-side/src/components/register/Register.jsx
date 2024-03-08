@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Image from "../../assets/image.png";
+import Image from "../../assets/login-image.jpg";
 import Logo from "../../assets/logo.png";
 import GoogleSvg from "../../assets/icons8-google.svg";
 import { FaEye } from "react-icons/fa6";
@@ -63,15 +63,12 @@ const Login = () => {
       </div>
       <div className="register-right">
         <div className="register-right-container">
-          <div className="register-logo">
-            <img src={Logo} alt="" />
-          </div>
           <div className="register-center">
-            <h2>Welcome to our website!</h2>
+            <h2>Register here</h2>
             <p>Please enter your details</p>
             <form onSubmit={handleRegisterSubmit}>
-            <input type="text" placeholder="Name" name="name" required={true} />
-            <input type="text" placeholder="Lastname" name="lastname" required={true} />
+            <input type="text" placeholder="First Name" name="name" required={true} />
+            <input type="text" placeholder="Last Name" name="lastname" required={true} />
               <input type="email" placeholder="Email" name="email" required={true} />
               <div className="pass-input-div">
                 <input type={showPassword ? "text" : "password"} placeholder="Password" name="password" required={true} />

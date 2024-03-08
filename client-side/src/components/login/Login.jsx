@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Image from "../../assets/image.png";
+import Image from "../../assets/login-image.jpg";
 import Logo from "../../assets/logo.png";
 import GoogleSvg from "../../assets/icons8-google.svg";
 import { FaEye } from "react-icons/fa6";
@@ -57,11 +57,8 @@ const Login = () => {
       </div>
       <div className="login-right">
         <div className="login-right-container">
-          <div className="login-logo">
-            <img src={Logo} alt="" />
-          </div>
           <div className="login-center">
-            <h2>Welcome back!</h2>
+            <h2>Login here</h2>
             <p>Please enter your details</p>
             <form onSubmit={handleLoginSubmit}>
               <input type="email" placeholder="Email" name="email" />

@@ -16,7 +16,7 @@
     transition: background 1s linear 0ms;
     transition: color 500ms linear 0ms;
 
-    width: 500px;
+    width: 300px;
     padding: 16px;
     border-radius: 4px;
     cursor: pointer;
@@ -36,7 +36,7 @@
     transition: background 1s linear 0ms;
     transition: color 500ms linear 0ms;
 
-    width: 500px;
+    width: 300px;
     padding: 16px;
     border-radius: 4px;
     font-size: 16px;
